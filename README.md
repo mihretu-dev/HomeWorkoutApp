@@ -1,64 +1,43 @@
-# 🚀 Android App Starter Template 🚀 
+# 🏋️‍♂️ Training Hub - Home Workout App
 
-Kickstart your Android app development with this feature-rich Android App Starter Template. Whether you're a beginner or an experienced developer, this template provides a solid foundation for building modern Android applications.
+A modern, offline-first Android fitness application built with Kotlin and Jetpack Compose. Designed for custom workout tracking, guided exercise execution, live rest timers, and personal record tracking.
 
-## Features 🌟
+Developed by **Mihretu Hizkel** • Contact: mihretu-dev
 
-The Android App Starter Template offers the following features:📱
+---
 
- 
-- **Modern UI:** Utilizes Jetpack Compose for creating dynamic and responsive interfaces.
-- **MVVM Architecture:** Follows best practices and emphasizes code clarity for maintainability by using MVVM architecture.
-- **Retrofit for Networking:** Efficient and scalable network requests are handled using Retrofit, making it easy to interact with APIs and fetch data.
+## 🔥 Key Features
 
+- **44+ Exercises Library:** Comprehensive coverage of Bodyweight, Dumbbell, Barbell, Pull-Up Bar, and Dip Station exercises with offline human athlete demonstration GIFs.
+- **Smart Filtering & Search:** Search exercises in real time and filter by Target Muscle Group or Equipment with multi-selection support.
+- **Custom Routine Management:** Expandable routine cards with step-by-step exercise breakdowns, custom exercise reordering, and full edit capabilities.
+- **Guided Active Workouts & Get-Ready Countdown:** Step-by-step workout execution queue with live interactive timers, 3-second get-ready countdown, rest countdowns, and haptic/sound cues.
+- **AI Voice Coach:** TextToSpeech spoken countdowns, exercise start guidance, rest announcements, and completion celebrations.
+- **Customizable Daily Workout Reminders:** Time Picker, workout day selectors (M..S), and motivational notification styles powered by WorkManager.
+- **Form Guides & History:** Detailed exercise instruction screens featuring historical log data (Reps, Weight, Max Hold) and PR tracking.
+- **Offline & Private:** 100% local data persistence using Room DB and WorkManager.
 
+---
 
-## Upcoming Components 🌟
+## 🛠️ Tech Stack
 
+- **UI:** Jetpack Compose, Material 3 (Dark Theme + Electric Lime Accents)
+- **Architecture:** MVVM, Clean Architecture
+- **Database:** Room DB (Offline First)
+- **Image/GIF Loading:** Coil
+- **Voice Engine:** Android TextToSpeech (TTS)
+- **Background Work:** WorkManager
+- **Language:** 100% Kotlin
 
-- **Splash Screen:** An eye-catching introduction to your app.
-- **Login/Register:** Seamless authentication for a smooth user experience.
-- **Dependency Injection (Dagger Hilt):** Manages and simplifies dependencies using Dagger Hilt, ensuring a modular and maintainable codebase.
-- **Coroutines for Concurrency:** Leverages Kotlin Coroutines for asynchronous and non-blocking programming, making it easier to handle background tasks.
-- **ViewBinding:** Utilizes ViewBinding for type-safe and null-safe view access, improving code safety and eliminating findViewById boilerplate.
-- **LiveData and ViewModel:** Implements Android Architecture Components like LiveData and ViewModel for efficient data observation and lifecycle awareness.
-- **Material Design Components:** Integrates with the latest Material Design components and follows design guidelines for a modern and consistent user interface.
-- **Logging (Timber):** Integrated Timber for enhanced logging during development, facilitating debugging and troubleshooting.
-- **Unit Testing (JUnit and Mockito):** Includes a setup for unit testing using JUnit and Mockito, ensuring code reliability and maintainability.
-- **Room Database:** Implements Room for local data storage, providing a robust and easy-to-use database solution.
-- **Navigation Component:** Utilizes Navigation Component for managing in-app navigation and ensuring a smooth user experience.
-- **WorkManager:** Integrates WorkManager for background processing, enabling the scheduling of deferrable and periodic tasks.
-- **SharedPreferences:** Uses SharedPreferences for simple data storage needs, providing a lightweight solution for storing key-value pairs.
-- **Custom Fonts:** Demonstrates the integration of custom fonts in the app, allowing for a personalized and visually appealing typography.
+---
 
+## 🚀 Getting Started
 
-
-## Getting Started 🚀
-
-Follow these steps to get started with the Android App Starter Template:
-
-1. **Clone the Repository:**
-    Use the following command to clone the repository:
-
+1. Clone the repo:
    ```bash
-   https://github.com/shweta-fulzele/Android-Starter-Template.git
-
-2. **Open in Android Studio:**
-
-     You can open the project in Android Studio and start building your app.
-
-3. **Customize and Extend:**
-
-     Could you customize the template to fit your app's branding and extend it with additional features?
-
-## Tech Stack 💻
-
-- [Jetpack Compose](https://developer.android.com/jetpack/compose/documentation): Modern Android UI toolkit.
-- [Kotlin](https://developer.android.com/kotlin?gclid=CjwKCAiApuCrBhAuEiwA8VJ6JmBS4wL691euXD7CTg7vDJ57ER_FZjobCqBvrNpBLKcUK_PErbaO0BoCoFQQAvD_BwE&gclsrc=aw.ds): Official programming language for Android development.
-
-## Acknowledgements 🙏
-Forked from [https://github.com/shweta-fulzele/Android-Starter-Template](https://github.com/shweta-fulzele/Android-Starter-Template) 
-
-
-**Happy Coding by Shweta Fulzele! 🚀**
-
+   git clone https://github.com/mihretu-dev/HomeWorkoutApp.git
+   ```
+2. Open in Android Studio or VS Code and run:
+   ```bash
+   ./gradlew installDevelopmentDebug
+   ```

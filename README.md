@@ -2,7 +2,7 @@
 
 A modern, offline-first Android fitness application built with Kotlin and Jetpack Compose. Designed for custom workout tracking, guided exercise execution, live rest timers, and personal record tracking.
 
-Developed by **Mihretu Hizkel** • Contact: mihretu-dev
+Developed by **Mihretu Hizkel (mihretu-dev)** • Contact: mihretuhizkel380@gmail.com
 
 ---
 

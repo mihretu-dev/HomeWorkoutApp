@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clean Modern Dumbbell Icon (Centered in Safe Area) -->
+    <group
+        android:translateX="54"
+        android:translateY="54">
+
+        <!-- Outer Left Outer Weight Plate -->
+        <path
+            android:fillColor="#D4FF00"
+            android:pathData="M-30,-18 H-22 V18 H-30 Z" />
+
+        <!-- Inner Left Weight Plate -->
+        <path
+            android:fillColor="#D4FF00"
+            android:pathData="M-20,-24 H-12 V24 H-20 Z" />
+
+        <!-- Left Collar -->
+        <path
+            android:fillColor="#D4FF00"
+            android:pathData="M-10,-14 H-7 V14 H-10 Z" />
+
+        <!-- Center Handle Bar -->
+        <path
+            android:fillColor="#D4FF00"
+            android:pathData="M-7,-5 H7 V5 H-7 Z" />
+
+        <!-- Right Collar -->
+        <path
+            android:fillColor="#D4FF00"
+            android:pathData="M7,-14 H10 V14 H7 Z" />
+
+        <!-- Inner Right Weight Plate -->
+        <path
+            android:fillColor="#D4FF00"
+            android:pathData="M12,-24 H20 V24 H12 Z" />
+
+        <!-- Outer Right Weight Plate -->
+        <path
+            android:fillColor="#D4FF00"
+            android:pathData="M22,-18 H30 V18 H22 Z" />
+
+    </group>
+</vector>

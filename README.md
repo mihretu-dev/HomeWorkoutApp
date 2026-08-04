@@ -6,6 +6,20 @@ Developed by **Mihretu Hizkel (mihretu-dev)** • Contact: mihretuhizkel380@gmai
 
 ---
 
+## 🎥 Exercise Demonstrations & Visuals
+
+| Push-Ups | Pull-Ups | Dip Station |
+| :---: | :---: | :---: |
+| <img src="app/src/main/assets/exercises/push_ups.gif" width="220" alt="Push-Ups"/> | <img src="app/src/main/assets/exercises/pull_ups.gif" width="220" alt="Pull-Ups"/> | <img src="app/src/main/assets/exercises/dips.gif" width="220" alt="Dips"/> |
+| **Push-Ups** | **Pull-Ups** | **Chest / Tricep Dips** |
+
+| Barbell Back Squat | Dumbbell Bicep Curl | Archer Push-Ups |
+| :---: | :---: | :---: |
+| <img src="app/src/main/assets/exercises/barbell_back_squat.gif" width="220" alt="Barbell Squat"/> | <img src="app/src/main/assets/exercises/db_bicep_curl.gif" width="220" alt="DB Bicep Curl"/> | <img src="app/src/main/assets/exercises/archer_push_ups.gif" width="220" alt="Archer Push-Ups"/> |
+| **Barbell Back Squat** | **Dumbbell Bicep Curl** | **Archer Push-Ups** |
+
+---
+
 ## 🔥 Key Features
 
 - **44+ Exercises Library:** Comprehensive coverage of Bodyweight, Dumbbell, Barbell, Pull-Up Bar, and Dip Station exercises with offline human athlete demonstration GIFs.

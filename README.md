@@ -1,5 +1,9 @@
 # 🏋️‍♂️ Training Hub - Home Workout App
 
+[![Download APK](https://img.shields.io/badge/Download-Android%20APK%20v1.0-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/mihretu-dev/HomeWorkoutApp/releases)
+[![Kotlin](https://img.shields.io/badge/Kotlin-100%25-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
+
 A modern, offline-first Android fitness application built with Kotlin and Jetpack Compose. Designed for custom workout tracking, guided exercise execution, live rest timers, and personal record tracking.
 
 Developed by **Mihretu Hizkel (mihretu-dev)** • Contact: mihretuhizkel380@gmail.com
@@ -45,13 +49,14 @@ Developed by **Mihretu Hizkel (mihretu-dev)** • Contact: mihretuhizkel380@gmai
 
 ---
 
-## 🚀 Getting Started
+## 📲 Download & Installation
 
-1. Clone the repo:
+[![Download Latest APK](https://img.shields.io/badge/Download_Latest_APK-v1.0.0-success?style=for-the-badge&logo=android&logoColor=white)](https://github.com/mihretu-dev/HomeWorkoutApp/releases)
+
+1. **Direct APK Download**: Tap the badge above or visit the [Releases Page](https://github.com/mihretu-dev/HomeWorkoutApp/releases) to download `app-production-release.apk`.
+2. **Build from Source**:
    ```bash
    git clone https://github.com/mihretu-dev/HomeWorkoutApp.git
-   ```
-2. Open in Android Studio or VS Code and run:
-   ```bash
+   cd HomeWorkoutApp
    ./gradlew installDevelopmentDebug
    ```
